@@ -1,3 +1,6 @@
+import com.softwaremill.clippy.ClippySbtPlugin._
+clippyColorsEnabled := true
+
 name := """play-scala"""
 
 version := "1.0-SNAPSHOT"
