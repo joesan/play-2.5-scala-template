@@ -1,6 +1,9 @@
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.10")
 
+// enable compiler color coded help during errors
+addSbtPlugin("com.softwaremill.clippy" % "plugin-sbt" % "0.5.0")
+
 // web plugins
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0")
